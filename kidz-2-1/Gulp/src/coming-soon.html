@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Site Tittle -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comming Soon</title>
+
+    <!-- Plugins css Style -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link href="assets/css/kidz.css" rel="stylesheet">
+    <link href="assets/css/default.css" id="option_style" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link href="assets/img/favicon.png" rel="shortcut icon">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body id="body" class="up-scroll">
+    <section class="coming-soon">
+      <div class="container">
+        <div class="row flex-column justify-content-center align-items-center" style="height: -webkit-fill-available;">
+          <div class="col-xs-12">
+            <div class="img text-center mb-10 mb-xl-8">
+              <a href="index.html">
+                <img class="d-block mx-auto" src="assets/img/logo.png" alt="logo.png">
+              </a>
+            </div>
+
+            <div class="text-center">
+              <h1 class="mb-4 font-weight-bold text-capitalize">We are coming soon</h1>
+              <p class="text-dark">We will be here soon. Please stay in touch</p>
+            </div>
+
+            <div class="comming-soon-count">
+              <div id="comming-soon" class="mb-6 "></div>
+            </div>
+
+            <div class="input-group form-group-icon mb-5">
+              <input type="email" class="form-control rounded border-purple" aria-describedby="basic-addon2" placeholder="Enter email for information">
+              <button type="submit" class="input-group-addon w-100 border-0 btn bg-transparent shadow-none p-0" id="basic-addon2">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <ul class="list-inline d-flex justify-content-center">
+              <li class="mx-2">
+                <a class="icon-rounded-circle-small bg-warning" href="javascript:void(0)">
+                  <i class="fa fa-facebook text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a class="icon-rounded-circle-small bg-success" href="javascript:void(0)">
+                  <i class="fa fa-google-plus text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a class="icon-rounded-circle-small bg-danger" href="javascript:void(0)">
+                  <i class="fa fa-twitter text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a class="icon-rounded-circle-small bg-info" href="javascript:void(0)">
+                  <i class="fa fa-linkedin text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a class="icon-rounded-circle-small bg-purple" href="javascript:void(0)">
+                  <i class="fa fa-instagram text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="mx-2">
+                <a class="icon-rounded-circle-small bg-pink" href="javascript:void(0)">
+                  <i class="fa fa-pinterest-p text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/syotimer/jquery.syotimer.min.js"></script>
+    <script src="assets/js/kidz.js"></script>
+    <script>
+      $('#comming-soon').syotimer({
+        year: 2019,
+        month: 5,
+        day: 9,
+        hour: 20,
+        minute: 30
+      });
+    </script>
+  </body>
+
+</html>

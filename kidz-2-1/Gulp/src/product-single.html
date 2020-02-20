@@ -1,0 +1,333 @@
+@@include('header.htm', {
+  "title": "Single Product- Kidz Store",
+  "parents": "store",
+  "active": "product-single"
+})
+
+<!-- ====================================
+  ———	BREADCRUMB
+  ===================================== -->
+<section class="breadcrumb-bg" style="background-image: url(assets/img/background/page-title-bg-img.jpg); ">
+  <div class="container">
+    <div class="breadcrumb-holder">
+      <ul class="breadcrumb breadcrumb-transparent">
+        <li class="breadcrumb-item">
+          <a class="text-white" href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item text-white active" aria-current="page">
+          Single Product
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+———	SINGLE PRODUCT
+===================================== -->
+<section class="pt-5 pb-7 pt-md-10 pb-md-9">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-lg-6">
+        <div class="row">
+          <div class="col-4 col-lg-3 px-lg-2 pr-2">
+            <div class="nav flex-column nav-pills nav-tab" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link active p-0" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                <img class="img-fluid px-1 py-2 py-md-3 d-block m-auto" src="assets/img/products/products-thumb01.jpg" alt="thumb01.jpg">
+              </a>
+
+              <a class="nav-link p-0" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <img class="img-fluid px-1 py-2 py-md-3 d-block m-auto" src="assets/img/products/products-thumb02.jpg" alt="thumb01.jpg">
+              </a>
+
+              <a class="nav-link p-0" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                <img class="img-fluid px-1 py-2 py-md-3 d-block m-auto" src="assets/img/products/products-thumb03.jpg" alt="thumb01.jpg">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-8 col-lg-9 pl-0">
+            <div class="tab-content border-4 rounded-lg mb-7 mb-md-0" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <img class="img-fluid py-9" src="assets/img/products/products-image-1.png" alt="image-1.png">
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <img class="img-fluid py-9" src="assets/img/products/products-image-2.png" alt="image-2.png">
+              </div>
+
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <img class="img-fluid py-9" src="assets/img/products/products-image-3.png" alt="image-3.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-lg-6">
+
+        <div class="product-single">
+          <h1>Barbie Racing Car</h1>
+
+          <span class="pricing font-size-55">$50 <del>$60</del></span>
+
+          <p class="font-size-15 mb-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
+          <div class="add-cart mb-5">
+            <div class="count-input">
+              <input class="quantity btn-primary" type="text" value="1">
+              <a class="incr-btn incr-up" data-action="decrease" href="#"><i class="fa fa-caret-up" aria-hidden="true"></i></a>
+              <a class="incr-btn incr-down" data-action="increase" href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            </div>
+            <button type="button" class="btn btn-danger text-uppercase" onclick="location.href='product-cart.html';">Add to cart</button>
+          </div>
+
+          <div class="mb-7">
+            <span class="text-dark">Category:</span>
+            <a class="text-danger" href="product-category.html">Education,</a>
+            <a class="text-danger" href="product-category.html">Colorfull</a>
+          </div>
+
+          <div class="">
+            <ul class="list-inline d-flex align-items-center mb-0 flex-wrap">
+              <li class="mr-2">
+                <h3 class="d-inline-block text-dark font-weight-medium">Share:</h3>
+              </li>
+
+              <li class="mr-1">
+                <a class="medium-icon-rounded-circle bg-warning" href="javascript:void(0)">
+                  <i class="fa fa-facebook text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+
+              <li class="mr-1">
+                <a class="medium-icon-rounded-circle bg-danger" href="javascript:void(0)">
+                  <i class="fa fa-twitter text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+
+              <li class="mr-1">
+                <a class="medium-icon-rounded-circle bg-success" href="javascript:void(0)">
+                  <i class="fa fa-google-plus text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+
+              <li class="mr-1">
+                <a class="medium-icon-rounded-circle bg-info" href="javascript:void(0)">
+                  <i class="fa fa-pinterest-p text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+
+              <li class="">
+                <a class="medium-icon-rounded-circle bg-purple" href="javascript:void(0)">
+                  <i class="fa fa-vimeo text-white" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+———	TAB SECTION
+===================================== -->
+<section class="pt-4 pb-8">
+  <div class="container">
+    <ul class="nav nav-pills mb-5" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Details</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Review(2)</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active px-5 py-6 bg-light rounded shadow-sm" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <h3 class="text-danger font-weight-medium mb-3">Product Description</h3>
+        <p class="font-size-15 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspici atis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+
+        <div class="row">
+          <div class="col-md-5 col-lg-4 col-xl-3 pr-xl-0">
+            <ul class="list-unstyled text-muted">
+              <li class="d-flex flex-row align-items-baseline font-size-15 mb-2">
+                <i class="fa fa-check mr-2" aria-hidden="true"></i>Vestibulum iaculis quam.
+              </li>
+              <li class="d-flex flex-row align-items-baseline font-size-15 mb-2">
+                <i class="fa fa-check mr-2" aria-hidden="true"></i>Quam ac libero volutpat placerat.
+              </li>
+              <li class="d-flex flex-row align-items-start font-size-15 mb-2">
+                <i class="fa fa-check mr-2" aria-hidden="true"></i>Iaculis quam ac libero.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 col-lg-4 col-xl-4 pl-xl-6 pr-xl-0">
+            <ul class="list-unstyled text-muted">
+              <li class="d-flex flex-row align-items-baseline font-size-15 mb-2">
+                <i class="fa fa-check mr-2" aria-hidden="true"></i>Vestibulum iaculis quam.
+              </li>
+              <li class="d-flex flex-row align-items-baseline font-size-15 mb-2">
+                <i class="fa fa-check mr-2" aria-hidden="true"></i>Quam ac libero volutpat placerat.
+              </li>
+              <li class="d-flex flex-row align-items-baseline font-size-15 mb-2">
+                <i class="fa fa-check mr-2" aria-hidden="true"></i>Iaculis quam ac libero.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade px-5 py-7 bg-light rounded shadow-sm" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="media flex-column flex-lg-row border-bottom mb-4 pb-4">
+          <div class="image mb-3 mb-lg-0 mr-lg-4">
+            <img class="rounded-circle" src="assets/img/blog/blog-sm-img1.jpg" alt="User Image">
+          </div>
+          <div class="media-body">
+            <div class="d-flex align-items-center justify-content-between mb-2">
+              <span class="media-heading text-danger font-dosis font-weight-medium mb-0 text-uppercase">Nice design, afordable price</span>
+              <span class="product-rating font-size-18">
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star-half-full text-warning" aria-hidden="true"></i></small>
+              </span>
+            </div>
+
+            <p class="font-size-15 mb-5">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <span class="text-muted opacity-75 mr-1">——</span>
+            <span class="text-muted opacity-75">Sarah Smith</span>
+          </div>
+        </div>
+
+        <div class="media flex-column flex-lg-row">
+          <div class="image mb-3 mb-lg-0 mr-lg-4">
+            <img class="rounded-circle" src="assets/img/blog/blog-sm-img3.jpg" alt="User Image">
+          </div>
+          <div class="media-body">
+            <div class="d-flex align-items-center justify-content-between mb-2">
+              <span class="media-heading text-danger font-dosis font-weight-medium mb-0 text-uppercase">Nice design, afordable price</span>
+              <span class="product-rating font-size-18">
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star text-warning" aria-hidden="true"></i></small>
+                <small><i class="fa fa-star-half-full text-warning" aria-hidden="true"></i></small>
+              </span>
+            </div>
+
+            <p class="font-size-15 mb-5">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+            <span class="text-muted opacity-75 mr-1">——</span>
+            <span class="text-muted opacity-75">James Kally</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================================
+———	RELATED PRODUCTS SECTION
+===================================== -->
+<section class="pt-5 pb-8 pt-md-7 pb-md-10">
+  <div class="container">
+    <div class="section-title justify-content-center mb-4 mb-md-8">
+      <span class="shape shape-left bg-info"></span>
+      <h2 class="text-danger">Related Products</h2>
+      <span class="shape shape-right bg-info"></span>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-lg-3 col-xs-12">
+        <div class="card card-border border-warning card-hover bg-white">
+          <a class="position-relative" href="javascript:void(0)" data-toggle="modal" data-target="#modal-products">
+            <img class="card-img-top mx-auto d-block py-6 w-50" src="assets/img/products/product-img1.jpg" alt="Card image">
+            <button class="btn btn-quickview shadow-none" data-toggle="modal" data-target="#modal-products">
+              <i class="fa fa-eye mr-2" aria-hidden="true"></i>
+              quick view
+            </button>
+          </a>
+          <div class="card-body bg-warning px-5 py-6">
+            <h5 class="mb-1">
+              <a class="text-white font-size-20" href="product-single.html">Barbie Racing Car</a>
+            </h5>
+            <big class="d-block mb-1">$50</big>
+            <a href="product-cart.html" class="btn btn-sm btn-white text-hover-warning text-uppercase d-inline-block">
+              <i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="col-sm-6 col-lg-3 col-xs-12">
+        <div class="card card-border border-success card-hover bg-white">
+          <a class="position-relative" href="javascript:void(0)" data-toggle="modal" data-target="#modal-products">
+            <img class="card-img-top mx-auto d-block py-6 w-50" src="assets/img/products/product-img2.jpg" alt="Card image">
+            <button class="btn btn-quickview shadow-none" data-toggle="modal" data-target="#modal-products">
+              <i class="fa fa-eye mr-2" aria-hidden="true"></i>
+              quick view
+            </button>
+          </a>
+          <div class="card-body bg-success px-5 py-6">
+            <h5 class="mb-1">
+              <a class="text-white font-size-20" href="product-single.html">Barbie Racing Car</a>
+            </h5>
+            <big class="d-block mb-1">$50 <del class="opacity-70">$60</del></big>
+            <a href="product-cart.html" class="btn btn-sm btn-white text-hover-success text-uppercase d-inline-block">
+              <i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 col-xs-12">
+        <div class="card card-border border-pink card-hover bg-white">
+          <a class="position-relative" href="javascript:void(0)" data-toggle="modal" data-target="#modal-products">
+            <img class="card-img-top mx-auto d-block py-6 w-50" src="assets/img/products/product-img3.jpg" alt="Card image">
+            <button class="btn btn-quickview shadow-none" data-toggle="modal" data-target="#modal-products">
+              <i class="fa fa-eye mr-2" aria-hidden="true"></i>
+              quick view
+            </button>
+          </a>
+          <div class="card-body bg-pink px-5 py-6">
+            <h5 class="mb-1">
+              <a class="text-white font-size-20" href="product-single.html">Barbie Racing Car</a>
+            </h5>
+            <big class="d-block mb-1">$50</big>
+            <a href="product-cart.html" class="btn btn-sm btn-white text-hover-pink text-uppercase d-inline-block">
+              <i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-3 col-xs-12">
+        <div class="card card-border border-info card-hover bg-white">
+          <a class="position-relative" href="javascript:void(0)" data-toggle="modal" data-target="#modal-products">
+            <img class="card-img-top mx-auto d-block py-6 w-50" src="assets/img/products/product-img4.jpg" alt="Card image">
+            <button class="btn btn-quickview shadow-none" data-toggle="modal" data-target="#modal-products">
+              <i class="fa fa-eye mr-2" aria-hidden="true"></i>
+              quick view
+            </button>
+          </a>
+          <div class="card-body bg-info px-5 py-6">
+            <h5 class="mb-1">
+              <a class="text-white font-size-20" href="product-single.html">Barbie Racing Car</a>
+            </h5>
+            <big class="d-block mb-1">$50 <del class="opacity-70">$60</del></big>
+            <a href="product-cart.html" class="btn btn-sm btn-white text-hover-info text-uppercase d-inline-block">
+              <i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+@@include('footer.htm')

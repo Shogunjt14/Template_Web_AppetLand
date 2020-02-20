@@ -1,0 +1,29 @@
+{
+  "name": "listty-html",
+  "version": "2.0.0",
+  "description": "Listty - directory listing theme development",
+  "author": "Abdus Salam",
+  "license": "Copyright of iamAbdus.com",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-file-include": "^0.14.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-rtlcss": "^1.4.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^1.12.1",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.7",
+    "minimist": "^1.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

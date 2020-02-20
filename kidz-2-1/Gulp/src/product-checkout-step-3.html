@@ -1,0 +1,82 @@
+@@include('header.htm', {
+	"title": "Checkout Step 3",
+	"parents": "store",
+	"active": "product-checkout-step-3"
+})
+
+@@include('breadcrumb.htm',{
+  "title": "Checkout Step 3"
+})
+
+<!-- ====================================
+———	CHECK-OUT SECTION
+===================================== -->
+<section class="py-7 py-md-10">
+  <div class="container">
+		<div class="row progress-wizard" style="border-bottom:0;">
+
+			<div class="col-sm-4 col-xs-12 progress-wizard-step complete">
+				<div class="progress"><div class="progress-bar"></div></div>
+				<a href="product-checkout-step-1.html" class="progress-wizard-dot">
+					<i class="fa fa-user" aria-hidden="true"></i>
+				</a>
+				<div class="progress-info">1. Personal info</div>
+			</div>
+
+			<div class="col-sm-4 col-xs-12 progress-wizard-step complete">
+				<div class="progress"><div class="progress-bar"></div></div>
+				<a href="product-checkout-step-2.html" class="progress-wizard-dot">
+					<i class="fa fa-usd" aria-hidden="true"></i>
+				</a>
+				<div class="progress-info">2. Payment Mathod</div>
+			</div>
+
+			<div class="col-sm-4 col-xs-12 progress-wizard-step active">
+				<div class="progress"><div class="progress-bar"></div></div>
+				<a href="product-checkout-step-3.html" class="progress-wizard-dot">
+					<i class="fa fa-check" aria-hidden="true"></i>
+				</a>
+				<div class="progress-info">3. Confirmation</div>
+			</div>
+		</div>
+
+		<div class="alert alert-success alert-dismissible fade show mb-6" role="alert">
+		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		    <span aria-hidden="true">&times;</span>
+		  </button>
+			<i class="fa fa-check" aria-hidden="true"></i>
+			Thank you! Your booking is confirmed. Invoice Sent in your email address
+		</div>
+
+	  <div class="">
+	    <h4 class="text-danger text-capitalize font-weight-bold mb-6 pl-4">card info</h4>
+
+			<p class="text-dark mb-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition.</p>
+
+			<p class="text-dark mb-6">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham</p>
+
+			<h4 class="text-danger text-capitalize font-weight-bold mb-4">Your Payment id:
+				<span class="text-dark">#23154632125</span>
+			</h4>
+	  </div>
+
+		<div class="row justify-content-between">
+			<div class="col-md-6">
+				<dl class="row mb-0">
+					<dt class="col-2">Address:</dt>
+  				<dd class="mb-0">Refat Newaz Abir <br>Shyamoli, Ring Road, <br>7/4/c Garden Street, <br>Dhaka</dd>
+				</dl>
+			</div>
+
+			<div class="col-md-6">
+				<div class="total-amount text-right">
+					<h2 class="font-weight-bold mb-0">Total:
+						<span class="text-danger">$69</span>
+					</h2>
+				</div>
+			</div>
+		</div>
+  </div>
+</section>
+
+@@include('footer.htm')

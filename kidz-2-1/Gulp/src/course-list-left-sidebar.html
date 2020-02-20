@@ -1,0 +1,323 @@
+@@include('header.htm', {
+"title": "Course List Left Sidebar",
+"parents": "courses",
+"active": "course-list-left-sidebar"
+})
+
+@@include('breadcrumb.htm',{
+"title": "Course List Left Sidebar"
+})
+
+<!-- ====================================
+———	COURSES SECTION
+===================================== -->
+<section class="py-8 py-md-10">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-sm-12 mb-4 mb-md-0 order-2 order-lg-0">
+				<div class="row">
+					<div class="col-md-6 col-lg-12">
+						<form class="" action="search-result.html">
+							<div class="card shadow-none bg-transparent">
+								<h3 class="card-header bg-warning font-weight-bold rounded-top text-white">Search</h3>
+								<div class="card-body border border-top-0 rounded-bottom">
+									<div class="input-group border-bottom pb-3 pt-4">
+										<input type="text" class="form-control border-0 px-1" placeholder="Enter Your Search" aria-describedby="basic-addon2">
+										<span class="input-group-addon" id="basic-addon2">
+											<input class="btn btn-sm btn-warning text-uppercase text-white shadow-sm" type="submit" value="Search">
+										</span>
+									</div>
+								</div>
+							</div>
+						</form>
+
+						<div class="card shadow-none bg-transparent overflow-hidden">
+							<h3 class="card-header bg-success font-weight-bold rounded-top text-white">Filter By</h3>
+							<div class="card-body border border-top-0 rounded-bottom">
+								<div class="filter">
+									<div class="mb-4 pt-3">
+										<select class="select2-select w-100 bg-white" name="state">
+											<option value="0">All Classes</option>
+											<option value="1">One</option>
+											<option value="2">Two</option>
+											<option value="3">Three</option>
+										</select>
+									</div>
+									<div class="mb-4">
+										<select class="select2-select w-100" name="state">
+											<option value="0">Ages</option>
+											<option value="1">05</option>
+											<option value="2">06</option>
+											<option value="3">07</option>
+											<option value="3">08</option>
+											<option value="3">09</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="price-range mt-6" id="price-range">
+									<div class="mb-6" id="slider-non-linear-step"></div>
+									<div class="price-range-content">
+										<input class="btn btn-sm btn-success text-white text-uppercase" type="submit" value="Filter">
+										<span class="price-text">Price:</span>
+										<span class="price-value" id="lower-value"></span>
+										<span class="price-value" id="upper-value"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-12">
+						<div class="card shadow-none rounded courseCountTimer"style="background-image: url(assets/img/courses/course-count.jpg">
+							<div class="card-body text-white p-2">
+								<div class="border rounded">
+									<h3 class="font-weight-bold text-center mb-6">Next Course Start In</h3>
+									<div id="courseTimer" class="mb-6"></div>
+									<div class="text-center">
+										<a href="course-single.html" class="btn btn-white text-info text-uppercase">view details</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-9 col-sm-12">
+				<div class="media media-list-view mb-5">
+					<a class="media-img" href="course-single.html">
+						<img src="assets/img/courses/courses-img1.jpg" alt="Image">
+						<div class="media-img-overlay">
+							<span class="badge badge-warning badge-rounded-circle">$50</span>
+						</div>
+					</a>
+
+					<div class="media-body">
+						<h3>
+							<a class="text-warning" href="course-single.html">Phasellus convallis eros.</a>
+						</h3>
+
+						<ul class="list-unstyled d-flex text-muted mb-3">
+							<li class="mr-3">
+								<i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Age 2 to 4 Years
+							</li>
+							<li>
+								<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>9.00AM-11.00AM
+							</li>
+						</ul>
+
+						<p class="text-justify mb-lg-2">They must explain to you how all this mistaken idea of denouncing pleasure and
+							praising pain was born and I will give you a complete account of the system, and expound the actual teachings of
+							the great explorer.</p>
+
+						<div class="">
+							<a href="product-cart.html" class="btn btn-sm btn-white text-uppercase mb-1 mr-2 btn-hover-warning">
+								<i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+							</a>
+							<a class="btn btn-link text-hover-warning text-underline pl-0" href="course-single.html">
+								<i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> More
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="media media-list-view mb-5">
+					<a class="media-img" href="course-single.html">
+						<img src="assets/img/courses/courses-img2.jpg" alt="Image">
+						<div class="media-img-overlay">
+							<span class="badge badge-success badge-rounded-circle">$50</span>
+						</div>
+					</a>
+
+					<div class="media-body">
+						<h3 class="mb-3 mb-lg-2 mb-xl-3">
+							<a class="text-success text-capitalize font-weight-bold" href="course-single.html">Phasellus
+								convallis eros.</a>
+						</h3>
+
+						<ul class="list-unstyled d-flex text-muted mb-3">
+							<li class="mr-3">
+								<i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Age 2 to 4 Years
+							</li>
+							<li>
+								<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>9.00AM-11.00AM
+							</li>
+						</ul>
+
+						<p class="text-justify mb-lg-2">They must explain to you how all this mistaken idea of denouncing pleasure and
+							praising pain was born and I will give you a complete account of the system, and expound the actual teachings of
+							the great explorer.</p>
+
+						<div class="">
+							<a href="product-cart.html" class="btn btn-sm btn-white text-uppercase mb-1 mr-2 btn-hover-success">
+								<i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+							</a>
+							<a class="btn btn-link text-hover-success text-underline pl-0" href="course-single.html">
+								<i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> More
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="media media-list-view mb-5">
+					<a class="media-img" href="course-single.html">
+						<img src="assets/img/features/features-course-3.jpg" alt="Image">
+						<div class="media-img-overlay">
+							<span class="badge badge-danger badge-rounded-circle">$50</span>
+						</div>
+					</a>
+
+					<div class="media-body">
+						<h3 class="mb-3 mb-lg-2 mb-xl-3">
+							<a class="text-danger text-capitalize font-weight-bold" href="course-single.html">Phasellus
+								convallis eros.</a>
+						</h3>
+
+						<ul class="list-unstyled d-flex text-muted mb-3">
+							<li class="mr-3">
+								<i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Age 2 to 4 Years
+							</li>
+							<li>
+								<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>9.00AM-11.00AM
+							</li>
+						</ul>
+
+						<p class="text-justify mb-lg-2">They must explain to you how all this mistaken idea of denouncing pleasure and
+							praising pain was born and I will give you a complete account of the system, and expound the actual teachings of
+							the great explorer.</p>
+
+						<div class="">
+							<a href="product-cart.html" class="btn btn-sm btn-white text-uppercase mb-1 mr-2 btn-hover-danger">
+								<i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+							</a>
+							<a class="btn btn-link text-hover-danger text-underline pl-0" href="course-single.html">
+								<i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> More
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="media media-list-view mb-5">
+					<a class="media-img" href="course-single.html">
+						<img src="assets/img/features/features-course-4.jpg" alt="Image">
+						<div class="media-img-overlay">
+							<span class="badge badge-info badge-rounded-circle">$50</span>
+						</div>
+					</a>
+
+					<div class="media-body">
+						<h3 class="mb-3 mb-lg-2 mb-xl-3">
+							<a class="text-info text-capitalize font-weight-bold" href="course-single.html">Phasellus convallis
+								eros.</a>
+						</h3>
+
+						<ul class="list-unstyled d-flex text-muted mb-3">
+							<li class="mr-3">
+								<i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Age 2 to 4 Years
+							</li>
+							<li>
+								<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>9.00AM-11.00AM
+							</li>
+						</ul>
+
+						<p class="text-justify mb-lg-2">They must explain to you how all this mistaken idea of denouncing pleasure and
+							praising pain was born and I will give you a complete account of the system, and expound the actual teachings of
+							the great explorer.</p>
+
+						<div class="">
+							<a href="product-cart.html" class="btn btn-sm btn-white text-uppercase mb-1 mr-2 btn-hover-info">
+								<i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+							</a>
+							<a class="btn btn-link text-hover-info text-underline pl-0" href="course-single.html">
+								<i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> More
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="media media-list-view mb-5">
+					<a class="media-img" href="course-single.html">
+						<img src="assets/img/features/features-course-1.jpg" alt="Image">
+						<div class="media-img-overlay">
+							<span class="badge badge-purple badge-rounded-circle">$50</span>
+						</div>
+					</a>
+
+					<div class="media-body">
+						<h3 class="mb-3 mb-lg-2 mb-xl-3">
+							<a class="text-purple text-capitalize font-weight-bold" href="course-single.html">Phasellus
+								convallis eros.</a>
+						</h3>
+
+						<ul class="list-unstyled d-flex text-muted mb-3">
+							<li class="mr-3">
+								<i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Age 2 to 4 Years
+							</li>
+							<li>
+								<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>9.00AM-11.00AM
+							</li>
+						</ul>
+
+						<p class="text-justify mb-lg-2">They must explain to you how all this mistaken idea of denouncing pleasure and
+							praising pain was born and I will give you a complete account of the system, and expound the actual teachings of
+							the great explorer.</p>
+
+						<div class="">
+							<a href="product-cart.html" class="btn btn-sm btn-white text-uppercase mb-1 mr-2 btn-hover-purple">
+								<i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+							</a>
+							<a class="btn btn-link text-hover-purple text-underline pl-0" href="course-single.html">
+								<i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> More
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="media media-list-view mb-5">
+					<a class="media-img" href="course-single.html">
+						<img src="assets/img/features/features-course-2.jpg" alt="Image">
+						<div class="media-img-overlay">
+							<span class="badge badge-pink badge-rounded-circle">$50</span>
+						</div>
+					</a>
+
+					<div class="media-body">
+						<h3 class="mb-3 mb-lg-2 mb-xl-3">
+							<a class="text-pink text-capitalize font-weight-bold" href="course-single.html">Phasellus convallis
+								eros.</a>
+						</h3>
+
+						<ul class="list-unstyled d-flex text-muted mb-3">
+							<li class="mr-3">
+								<i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Age 2 to 4 Years
+							</li>
+							<li>
+								<i class="fa fa-clock-o mr-2" aria-hidden="true"></i>9.00AM-11.00AM
+							</li>
+						</ul>
+
+						<p class="text-justify mb-lg-2">They must explain to you how all this mistaken idea of denouncing pleasure and
+							praising pain was born and I will give you a complete account of the system, and expound the actual teachings of
+							the great explorer.</p>
+
+						<div class="">
+							<a href="product-cart.html" class="btn btn-sm btn-white text-uppercase mb-1 mr-2 btn-hover-pink">
+								<i class="fa fa-shopping-basket mr-2" aria-hidden="true"></i>Add to Cart
+							</a>
+							<a class="btn btn-link text-hover-pink text-underline pl-0" href="course-single.html">
+								<i class="fa fa-angle-double-right mr-1" aria-hidden="true"></i> More
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="mt-6 mt-lg-8">
+		@@include('pagination.htm')
+	</div>
+</section>
+
+@@include('footer.htm')
